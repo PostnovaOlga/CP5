@@ -1,0 +1,12 @@
+print("The first cathet :")
+k=input()
+print("The second cathet :")
+t=input()
+k=int(k)
+t=int(t)
+S=0.5*k*t
+print("S:")
+print(S)
+P=(k)+(t)+pow((k*k+t*t),0.5)
+print("P:")
+print(P)
